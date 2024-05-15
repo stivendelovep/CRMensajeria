@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export function Home() {
+export function Pedidos() {
   return (
     <container>
         <h1>Home</h1>
