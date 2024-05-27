@@ -7,6 +7,7 @@ import {
   AiOutlineSetting,
 } from "react-icons/ai";
 import { MdOutlineAnalytics, MdLogout } from "react-icons/md";
+import { FaCloud } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { ThemeContext } from "../App";
@@ -28,6 +29,7 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
         <div className="imgcontent">
          
         </div>
+        <FaCloud />
         <h2>NexoCRM</h2>
       </div>
       {linksArray.map(({ icon, label, to }) => (
@@ -290,4 +292,5 @@ const Divider = styled.div`
   background: ${(props) => props.theme.bg3};
   margin: ${v.lgSpacing} 0;
 `;
+//#endregion
 //#endregion

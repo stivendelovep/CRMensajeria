@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export function Dashboard() {
   return (
     <container>
-        <h1>Clientes</h1>
+        <h1>Dashboard</h1>
     </container>
   )
 }
